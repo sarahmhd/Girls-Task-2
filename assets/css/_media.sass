@@ -1,0 +1,106 @@
+
+/* For large devices */
+// @media only screen and (min-width: 1001px)
+
+/* For medium devices */
+// @media only screen and (min-width: 769px) and (max-width: 1199px)
+
+/* For medium and small devices */
+@media only screen and (max-width: 991px)
+    .navbar
+        .collapse.navbar-collapse
+            position: absolute
+            top: 100%
+    .services
+        .section-p
+            width: 90% !important
+    .design
+        height: 100vh !important
+        .img
+            display: none !important
+        .box
+            width: 100% !important
+    .subscribe
+        .subscribe-content
+            flex-direction: column !important
+            text-align: center !important
+            justify-content: center !important
+            align-items: center
+            form
+                input[type="email"]
+                    width: 80%
+            p
+                width: 100% !important
+    .contact
+        .row
+            flex-flow: column-reverse
+            .data
+                text-align: center
+                margin-bottom: 30px
+// // /* For small devices */
+@media only screen and (max-width: 768px)
+    .navbar
+        .navbar-nav
+            li
+                a.active
+                    color: $transparent-color !important
+    .welcome
+        .box
+            width: 90% !important
+            padding-left: 40px !important
+            h2
+                font-size: 1.3rem !important
+            p
+                font-size: 0.8rem !important
+        .prev
+            left: 0 !important
+        .next
+            right: 0 !important
+    .services
+        .info
+            flex-direction: column !important
+            text-align: center !important
+    .awesome-video
+        .box
+            line-height: 1
+            height: 65% !important
+            h2
+                font-size: 1.1rem !important
+            p,
+            span
+                font-size: 0.8rem !important
+    .stats
+        height: 100vh !important
+        .row
+            .last
+                .span
+                    margin-bottom: 0 !important
+        h4
+            font-size: 1.5rem !important
+    .skills
+        .progress-content
+            padding-left: 0 !important
+    .quote
+        q
+            font-size: 1.1rem !important
+    .subscribe
+        padding: 30px 0 !important
+        height: 50vh !important
+        font-size: 1rem !important
+        form
+            border: none !important
+            flex-direction: column !important
+            svg
+                position: absolute
+                right: 0
+            input
+                width: 100% !important
+                padding: 15px !important
+            input[type="email"]
+                border: 1px solid #fff !important
+    footer
+        .footer-content
+            width: 100%
+            .social
+                width: 40%
+                margin: 0 auto
